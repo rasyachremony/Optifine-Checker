@@ -1,5 +1,4 @@
-# OPTIFINE CAPE CHECKER ACC
-
+# Optifine Checker
 ![Info image](Ex.png)
 
 A tool to check if OptiFine accounts have capes associated with them. This script automates the process of logging into OptiFine accounts and checking for cape availability.
