@@ -1,5 +1,7 @@
 # OPTIFINE CAPE CHECKER ACC
 
+![Info image](Ex.png)
+
 A tool to check if OptiFine accounts have capes associated with them. This script automates the process of logging into OptiFine accounts and checking for cape availability.
 
 ## Features
@@ -65,9 +67,6 @@ The script works by:
 4. Logging into the OptiFine website
 5. Checking if the account has any capes
 6. Saving the results to appropriate files
-
-![image info](Ex.png)
-
 
 ## Code Summary
 
