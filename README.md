@@ -24,7 +24,7 @@ The code uses DrissionPage for browser automation, which is a lightweight altern
    pip install -r requirements.txt
    ```
 
-3. Make sure you have Google Chrome installed on your system.
+3. Make sure you have Google Chrome / Chromium installed on your system.
 
 ## Usage
 
@@ -36,10 +36,13 @@ The code uses DrissionPage for browser automation, which is a lightweight altern
    ```
 
 3. When prompted, enter the path to your accounts file.
+   ```
+   acc.txt
+   ```
 
-4. The script will process each account and display results in real-time.
+5. The script will process each account and display results in real-time.
 
-5. Results will be saved in the `results` folder:
+6. Results will be saved in the `results` folder:
    - `with_cape.txt`: Accounts that have capes
    - `error_accounts.txt`: Accounts with errors or no capes
 
@@ -52,4 +55,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Disclaimer
 
-This tool is for educational purposes only. Use it responsibly and in accordance with OptiFine's terms of service. 
+This tool is for educational and experimental purposes only. Use it responsibly with OptiFine's terms of service. 
