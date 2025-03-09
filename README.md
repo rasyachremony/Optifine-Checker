@@ -66,6 +66,9 @@ The script works by:
 5. Checking if the account has any capes
 6. Saving the results to appropriate files
 
+![image info](Ex.png)
+
+
 ## Code Summary
 
 - `OptifineLoginHandler`: Handles browser automation and login process
