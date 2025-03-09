@@ -162,7 +162,6 @@ class OptifineLoginHandler:
             }
             """)
             
-            # Navigate to the login page with a fresh session
             self.driver.clear_cache()
             self.driver.get("https://optifine.net/login")
             
