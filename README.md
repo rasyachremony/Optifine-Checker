@@ -3,14 +3,6 @@
 
 A tool to check if OptiFine accounts have capes associated with them. This script automates the process of logging into OptiFine accounts and checking for cape availability.
 
-## Features
-
-- Batch processing of multiple accounts
-- Cloudflare protection bypass
-- Colorful terminal output with progress bars
-- Detailed statistics on processing time
-- Automatic saving of results to separate files
-
 ## Requirements
 
 - Python 3.6+
