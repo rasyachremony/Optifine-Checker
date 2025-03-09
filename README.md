@@ -3,6 +3,8 @@
 
 A tool to check if OptiFine accounts have capes associated with them. This script automates the process of logging into OptiFine accounts and checking for cape availability.
 
+The code uses DrissionPage for browser automation, which is a lightweight alternative to Selenium. It also includes a Cloudflare bypasser to handle protection challenges.
+
 ## Requirements
 
 - Python 3.6+
@@ -13,7 +15,7 @@ A tool to check if OptiFine accounts have capes associated with them. This scrip
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/optifine-cape-checker.git
+   git clone https://github.com/rasyachremony/Optifine-Checker/
    cd optifine-cape-checker
    ```
 
@@ -41,37 +43,8 @@ A tool to check if OptiFine accounts have capes associated with them. This scrip
    - `with_cape.txt`: Accounts that have capes
    - `error_accounts.txt`: Accounts with errors or no capes
 
-## Configuration
-
-You can set the Chrome browser path by setting the `CHROME_PATH` environment variable:
-
-- Windows: `set CHROME_PATH=C:\Path\To\Chrome.exe`
-- macOS/Linux: `export CHROME_PATH=/path/to/chrome`
-
-## How It Works
-
-The script works by:
-
-1. Reading account credentials from a text file
-2. Opening a hidden Chrome browser instance for each account
-3. Bypassing Cloudflare protection if present
-4. Logging into the OptiFine website
-5. Checking if the account has any capes
-6. Saving the results to appropriate files
-
-## Code Summary
-
-- `OptifineLoginHandler`: Handles browser automation and login process
-- `process_accounts`: Processes a batch file of accounts
-- `main`: Entry point for the script
-
-The code uses DrissionPage for browser automation, which is a lightweight alternative to Selenium. It also includes a Cloudflare bypasser to handle protection challenges.
-
-## Troubleshooting
-
-- **Browser Path Issues**: If the script can't find your Chrome browser, set the `CHROME_PATH` environment variable.
-- **Cloudflare Bypass Failures**: If you encounter frequent Cloudflare bypass failures, try updating the CloudflareBypasser package.
-- **Rate Limiting**: If you're checking many accounts, OptiFine might rate-limit your IP. Consider using a proxy or adding delays between checks.
+## Contribute
+Please feel free to enhance this further for greater efficiency and push the changes to Git.
 
 ## License
 
